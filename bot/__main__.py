@@ -50,7 +50,7 @@ def start(update, context):
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-Hello, Saya Zukky si Mirror Bot. Tugas saya adalah mengubah Torrent / Direct Link menjadi GDrive Url!
+Hello, Saya Kakky si Mirror Bot. Tugas saya adalah mengubah Torrent / Direct Link menjadi GDrive Url!
 
 Ketik /{BotCommands.HelpCommand} untuk membuka list perintah
 '''
